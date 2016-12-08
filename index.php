@@ -81,6 +81,20 @@ $usb_comPort = "COM4";
 		<input type='submit' name='alloff' value='APAGAR TODO'>
 		
 	</form></CENTER>
+
+
+	<table  border="1">
+
+	    <th>
+                <td>1</td>
+                <td>2</td>
+         </th>
+        <tr ng-repeat="report in reportList">
+            <td>{{report.label}}</td>
+            <td>{{report.state}}</td>
+            <td>{{report.time | date:'MM/dd/yyyy  h:mma'}}</td>
+        </tr>
+    </table>
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/angular/angular.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>

@@ -19,9 +19,9 @@ $scope.hi = 'hello word';
       $localStorage['report'] = [objSave];
 
     }
-
-
   }
+
+  $scope.reportList = $localStorage['report'];
 
 });
 
