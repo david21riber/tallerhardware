@@ -80,5 +80,6 @@ $usb_comPort = "COM4";
 		
 	</form></CENTER>
 
+<script src="arduino.controller.js"></script>
 </body>
 </html>
